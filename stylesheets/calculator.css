@@ -1,0 +1,76 @@
+#background{
+  width: 275px; 
+  height:320px;
+  background-color: #B9B9B9;
+  background: linear-gradient(#DCDCDC, #ADADAD);
+  border: 1px solid black;
+
+
+}
+#calc{
+  margin: auto;
+  padding: 1px;  
+}
+
+#button-panel {  
+  width: 257px;
+  margin: 10px; 
+}
+
+#button-panel button {
+  width: 61px;
+  height: 28px;
+  border-radius: 5px;
+  outline: none;  
+  box-shadow: 1px 1px 2px #ccc;
+  margin: auto;
+  background-color:#D6D6D6;
+  padding: 3px;
+  border: 1px solid #6F6F6F;
+  box-shadow: 
+    inset 0 2px 3px rgba(255,255,255,0.3),
+    inset 0 -2px 3px rgba(0,0,0,0.3),
+    0 1px 1px rgba(255,255,255,0.9);
+  0 1px 2px #fff, 
+  0 -1px 1px #666, 
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8); 
+  
+}
+
+#button-panel button:hover{
+	background-color: #CCCCCC;
+}
+
+
+#button-panel .wide {  
+  width: 125px;
+}
+#button-panel .tall {  
+  height: 66px;
+  width: 61px;
+  float: right;
+  padding: 10 px;
+  line-height:100px;
+
+}
+
+#display {
+  font-size: 20px;
+  background-color: #F0FBC8; 
+  width: 230px;
+  height: 40px;
+  margin: 10px;
+  padding: 10px;
+  text-align: right;
+  line-height: 20px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  box-shadow:     inset 0 2px 3px rgba(255,255,255,0.3),
+    inset 0 -2px 3px rgba(0,0,0,0.3),
+    0 1px 1px rgba(255,255,255,0.9);
+  0 1px 2px #fff, 
+  0 -1px 1px #666, 
+  inset 0 -1px 1px rgba(0,0,0,0.5), 
+  inset 0 1px 1px rgba(255,255,255,0.8); 
+}
